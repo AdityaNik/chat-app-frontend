@@ -113,7 +113,7 @@ function MessagePage() {
     
     useEffect(() => {
         loadSessions();
-    }, []);
+    }, [sessions]);
 
     const handleSendMessage = (e: React.FormEvent) => {
         e.preventDefault();
